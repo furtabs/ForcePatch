@@ -1,0 +1,16 @@
+{
+    "type": "mysticalagriculture:soul_extraction",
+    "neoforge:conditions": [
+      {
+        "type": "neoforge:mod_loaded",
+        "modid": "forcecraft"
+      }
+    ],
+    "input": {
+      "item": "forcecraft:claw"
+    },
+    "result": {
+      "type": "mysticalagriculture:bat",
+      "souls": 0.5
+    }
+  }

@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "forcecraft"
+    }
+  ],
+  "values": {
+    "forcecraft:force_sapling": {
+      "model": "forcecraft:force_tree"
+    }
+  }
+}

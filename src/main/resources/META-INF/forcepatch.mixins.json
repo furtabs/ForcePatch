@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.furtabs.forcepatch.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ModCropsMixin",
+    "ModMobSoulTypesMixin"
+  ],
+  "plugin": "com.furtabs.forcepatch.mixin.ForcePatchMixinPlugin",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

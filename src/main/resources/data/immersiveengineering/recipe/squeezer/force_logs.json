@@ -1,0 +1,11 @@
+{
+  "type": "immersiveengineering:squeezer",
+  "energy": 6400,
+  "fluid": {
+    "amount": 1000,
+    "id": "forcecraft:fluid_force_source"
+  },
+  "input": {
+    "item": "forcecraft:force_gem"
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "values": {
+      "before": [
+        {
+          "type": "projecte:item",
+          "emc_value": 338,
+          "id": "forcecraft:force_gem"
+        },
+        {
+          "type": "projecte:item",
+          "emc_value": 32,
+          "id": "forcecraft:force_log"
+        },
+        {
+          "type": "projecte:item",
+          "emc_value": 2048,
+          "id": "forcecraft:claw"
+        }
+      ]
+    }
+}

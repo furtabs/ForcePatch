@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "mysticalagriculture"
+    }
+  ],
+  "pattern": [
+    "EE ",
+    "E E",
+    "   "
+  ],
+  "key": {
+    "E": {
+      "item": "mysticalagriculture:bat_essence"
+    }
+  },
+  "result": {
+    "id": "forcecraft:claw",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "forcecraft:force_gem"
+      }
+    ],
+    "results": [
+      {
+        "amount": 1000,
+        "id": "forcecraft:fluid_force_source"
+      }
+    ]
+}

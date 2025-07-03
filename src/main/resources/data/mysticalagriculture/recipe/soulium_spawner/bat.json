@@ -1,0 +1,19 @@
+{
+  "type": "mysticalagriculture:soulium_spawner",
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:bat"
+    }
+  ],
+  "input": {
+    "item": "mysticalagriculture:bat_essence",
+    "count": 12
+  },
+  "entities": [
+    {
+      "entity": "minecraft:bat",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": {
+    "item": "forcecraft:force_gem"
+  },
+  "output_fluid": {
+    "id": "forcecraft:fluid_force_source",
+    "amount": 1000
+  },
+  "duration": 15
+}

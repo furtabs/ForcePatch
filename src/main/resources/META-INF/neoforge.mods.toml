@@ -1,0 +1,23 @@
+modLoader = "javafml"
+loaderVersion = "[2, )"
+license = "MIT"
+
+[[mods]]
+modId = "forcepatch"
+version = "1.0.0"
+displayName = "ForcePatch"
+updateJSONURL = ""
+displayURL = ""
+logoFile = ""
+authorList = ["Tabitha"]
+description = '''
+A Minecraft mod that adds ForceCraft integration to various farming and automation mods.
+'''
+side = "CLIENT"
+
+[[dependencies.forcepatch]]
+modId = "neoforge"
+mandatory = true
+versionRange = "[21, )"
+ordering = "NONE"
+side = "CLIENT" 
