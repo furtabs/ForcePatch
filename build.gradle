@@ -34,9 +34,7 @@ configurations {
 dependencies {
 	implementation "net.neoforged:neoforge:${neo_version}"
 	implementation 'org.spongepowered:mixin:0.8.5'
-	implementation "curse.maven:forcecraft-454802:6492721"
 	implementation "curse.maven:mystical-agriculture-246640:6864755"
-    implementation "curse.maven:hostile-neural-networks-552574:6751495"
 }
 
 tasks.withType(ProcessResources).configureEach {

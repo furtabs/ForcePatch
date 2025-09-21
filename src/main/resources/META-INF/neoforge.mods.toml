@@ -21,3 +21,10 @@ mandatory = true
 versionRange = "[21, )"
 ordering = "NONE"
 side = "CLIENT" 
+
+[[dependencies.forcepatch]]
+modId = "forcecraft"
+mandatory = true
+versionRange = "[0, )"
+ordering = "NONE"
+side = "CLIENT" 
