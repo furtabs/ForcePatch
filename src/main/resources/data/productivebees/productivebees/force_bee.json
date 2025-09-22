@@ -1,0 +1,10 @@
+{
+    "primaryColor": "#FFD966",
+    "secondaryColor": "#FFEB99",
+    "tertiaryColor": "#F6C85F",
+    "particleColor": "#79a3ea",
+    "flowerBlock": "forcecraft:force_block",
+    "description": "productivebees.ingredient.description.only_spawnegg",
+    "size": 1,
+    "selfbreed": false
+  }

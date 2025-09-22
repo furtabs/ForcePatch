@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "forcecraft:force_block"
+    }
+  ],
+  "result": {
+    "id": "forcecraft:force_gem",
+    "count": 9
+  }
+}

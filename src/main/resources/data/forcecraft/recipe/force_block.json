@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "FFF",
+    "FFF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "forcecraft:force_gem"
+    }
+  },
+  "result": {
+    "id": "forcecraft:force_block",
+    "count": 1
+  }
+}
