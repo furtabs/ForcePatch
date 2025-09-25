@@ -4,7 +4,7 @@ license = "MIT"
 
 [[mods]]
 modId = "forcepatch"
-version = "1.0.0"
+version = "1.0.3"
 displayName = "ForcePatch"
 updateJSONURL = ""
 displayURL = ""

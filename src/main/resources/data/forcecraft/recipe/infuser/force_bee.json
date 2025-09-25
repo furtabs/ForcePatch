@@ -1,13 +1,7 @@
 {
     "type": "forcecraft:infuser",
     "center": {
-      "item": "productivebees:spawn_egg_configurable_bee",
-      "components": {
-        "minecraft:entity_data": {
-          "id": "productivebees:configurable_bee",
-          "type": "productivebees:gold_bee"
-        }
-      }
+      "item": "minecraft:bee_spawn_egg"
     },
     "ingredient": {
       "item": "forcecraft:force_gem"
@@ -23,6 +17,6 @@
       }
     },
     "resultType": "item",
-    "tier": "5",
+    "tier": "6",
     "time": 60
 }
