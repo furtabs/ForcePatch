@@ -1,7 +1,13 @@
 {
     "type": "forcecraft:infuser",
     "center": {
-      "item": "minecraft:bee_spawn_egg"
+      "item": "productivebees:spawn_egg_configurable_bee",
+      "components": {
+        "minecraft:entity_data": {
+          "id": "productivebees:configurable_bee",
+          "type": "productivebees:gold_bee"
+        }
+      }
     },
     "ingredient": {
       "item": "forcecraft:force_gem"
