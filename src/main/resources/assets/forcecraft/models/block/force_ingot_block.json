@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "forcecraft:block/force_block"
+    "all": "forcecraft:block/force_ingot_block"
   }
 }

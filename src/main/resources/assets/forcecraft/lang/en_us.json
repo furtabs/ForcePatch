@@ -1,4 +1,6 @@
 {
-  "block.forcecraft.force_block": "Force Block",
-  "item.forcecraft.force_block": "Force Block"
+  "block.forcecraft.force_gem_block": "Force Gem Block",
+  "item.forcecraft.force_gem_block": "Force Gem Block",
+  "block.forcecraft.force_ingot_block": "Force Ingot Block",
+  "item.forcecraft.force_ingot_block": "Force Ingot Block"
 }

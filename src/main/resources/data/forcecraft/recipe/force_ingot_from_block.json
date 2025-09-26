@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "forcecraft:force_gem_block"
+      "item": "forcecraft:force_ingot_block"
     }
   ],
   "result": {
-    "id": "forcecraft:force_gem",
+    "id": "forcecraft:force_ingot",
     "count": 9
   }
 }

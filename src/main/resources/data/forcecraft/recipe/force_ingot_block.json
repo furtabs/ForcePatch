@@ -8,11 +8,11 @@
   ],
   "key": {
     "F": {
-      "item": "forcecraft:force_gem"
+      "item": "forcecraft:force_ingot"
     }
   },
   "result": {
-    "id": "forcecraft:force_block",
+    "id": "forcecraft:force_ingot_block",
     "count": 1
   }
 }

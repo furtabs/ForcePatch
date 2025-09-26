@@ -13,7 +13,11 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks("forcecraft");
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems("forcecraft");
 
-    public static final DeferredBlock<Block> FORCE_BLOCK = BLOCKS.register("force_block", ForceBlock::new);
-    public static final DeferredItem<Item> FORCE_BLOCK_ITEM = ITEMS.register("force_block", 
-        () -> new BlockItem(FORCE_BLOCK.get(), new Item.Properties()));
+    public static final DeferredBlock<Block> FORCE_GEM_BLOCK = BLOCKS.register("force_gem_block", ForceBlock::new);
+    public static final DeferredItem<Item> FORCE_GEM_BLOCK_ITEM = ITEMS.register("force_gem_block", 
+        () -> new BlockItem(FORCE_GEM_BLOCK.get(), new Item.Properties()));
+    
+    public static final DeferredBlock<Block> FORCE_INGOT_BLOCK = BLOCKS.register("force_ingot_block", ForceBlock::new);
+    public static final DeferredItem<Item> FORCE_INGOT_BLOCK_ITEM = ITEMS.register("force_ingot_block", 
+        () -> new BlockItem(FORCE_INGOT_BLOCK.get(), new Item.Properties()));
 }
