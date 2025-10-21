@@ -4,7 +4,8 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "ModCropsMixin",
-    "ModMobSoulTypesMixin"
+    "ModMobSoulTypesMixin",
+    "GeOreRegistryMixin"
   ],
   "plugin": "com.furtabs.forcepatch.mixin.ForcePatchMixinPlugin",
   "injectors": {

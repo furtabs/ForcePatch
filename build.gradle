@@ -34,7 +34,61 @@ configurations {
 dependencies {
 	implementation "net.neoforged:neoforge:${neo_version}"
 	implementation 'org.spongepowered:mixin:0.8.5'
-	implementation "curse.maven:mystical-agriculture-246640:6864755"
+	
+	// Patchouli
+	implementation "curse.maven:patchouli-306770:6842247"
+
+	// ForceCraft
+	implementation "curse.maven:forcecraft-454802:7042110"
+
+    // Bonsai Trees
+	implementation "curse.maven:bonsai-trees-278993:7094632"
+	
+	// Botany Trees and dependencies
+	implementation "curse.maven:bookshelf-228525:7115412"
+	implementation "curse.maven:botany-pots-353928:7115287"
+	implementation "curse.maven:prickle-1023259:6961457"
+	implementation "curse.maven:botany-trees-411357:6895799"
+	
+	// Create
+	implementation "curse.maven:create-328085:6641610"
+
+	// Ender IO
+	implementation "curse.maven:ender-io-64578:7036575"
+
+	// GeOre
+	implementation "curse.maven:geore-530544:7075069"
+
+	// Hostile Neural Networks and dependencies
+	implementation "curse.maven:placebo-283644:6926281"
+	implementation "curse.maven:hostile-neural-networks-552574:6751495"
+
+	// Immersive Engineering
+	implementation "curse.maven:immersive-engineering-231951:6733669"
+
+	// Integrated Dynamics
+	implementation "curse.maven:cyclops-core-232758:7076266"
+	implementation "curse.maven:common-capabilities-247007:7117034"
+	implementation "curse.maven:integrated-dynamics-236307:7093981"
+
+	// Mekanism / Mekanism More Machines
+	implementation "curse.maven:mekanism-268560:7017663"
+	implementation "curse.maven:mekanism-generators-268566:7017666"
+	implementation "curse.maven:mekanism-more-machine-1275257:7019511"
+
+	// Mystical Agriculture and dependencies
+	implementation "curse.maven:cucumber-272335:6864715"
+	implementation "curse.maven:mystical-agriculture-246640:6714864"
+
+	// Productive Bees
+	implementation "curse.maven:productivebees-377897:6966608"
+
+	// ProjectE
+	implementation "curse.maven:projecte-226410:6611984"
+
+	// Replication and dependencies
+	implementation "curse.maven:titanium-287342:6875285"
+	implementation "curse.maven:replication-638351:6941700"
 }
 
 tasks.withType(ProcessResources).configureEach {

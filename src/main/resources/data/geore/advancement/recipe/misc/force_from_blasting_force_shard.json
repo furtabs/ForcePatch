@@ -1,0 +1,41 @@
+{
+    "neoforge:conditions": [
+      {
+        "type": "neoforge:not",
+        "value": {
+          "type": "neoforge:tag_empty",
+          "tag": "c:nuggets/force"
+        }
+      }
+    ],
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_forcegeore_shard": {
+        "conditions": {
+          "items": [
+            {
+              "items": "geore:force_shard"
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "has_the_recipe": {
+        "conditions": {
+          "recipe": "geore:force_from_blasting_force_shard"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_forcegeore_shard"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "geore:force_from_blasting_force_shard"
+      ]
+    }
+  }

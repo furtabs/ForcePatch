@@ -23,6 +23,14 @@ public class ForcePatchMixinPlugin implements IMixinConfigPlugin {
                 return false;
             }
         }
+        if (mixinClassName.endsWith("GeOreRegistryMixin")) {
+            try {
+                Class.forName("com.shynieke.geore.registry.GeOreRegistry");
+                return true;
+            } catch (ClassNotFoundException e) {
+                return false;
+            }
+        }
         return true;
     }
 

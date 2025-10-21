@@ -1,0 +1,10 @@
+{
+    "values": [
+        "geore:small_force_bud",
+        "geore:medium_force_bud",
+        "geore:large_force_bud",
+        "geore:force_cluster",
+        "geore:budding_force",
+        "geore:force_block"
+    ]
+}
